@@ -1,4 +1,4 @@
-[![openupm](https://img.shields.io/npm/v/com.mrgvsv.unity-pixel-contour?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.mrgvsv.unity-pixel-contour/)
+[![openupm](https://img.shields.io/npm/v/com.mrgvsv.pixel-contour?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.mrgvsv.pixel-contour/)
 
 # Pixel Contour
 
@@ -15,7 +15,7 @@ This package provides a simple edge-detection system designed specifically for p
 Install the package via [openupm-cli](https://github.com/openupm/openupm-cli):
 
 ```bash
-openupm add com.mrgvsv.unity-pixel-contour
+openupm add com.mrgvsv.pixel-contour
 ```
 
 ### Git URL
@@ -27,7 +27,7 @@ The package can also be installed via git URL. This can be done one of two ways:
 Inside Unity, open the Package Manager Window. Click the "+" button in the top left corner, and select "Add package fromgGit URL...". Then paste in the following:
 
 ```bash
-https://github.com/MrGVSV/unity-pixel-contour.git
+https://github.com/MrGVSV/pixel-contour.git
 ```
 
 > For more details, see Unity's [documentation](https://docs.unity3d.com/Manual/upm-ui-giturl.html)
@@ -41,7 +41,7 @@ Alternatively, a package can be installed manually by opening the `manifest.json
 	// ...
   	"dependencies": {
     		// other dependencies...
-    		"com.mrgvsv.unity-pixel-contour": "https://github.com/MrGVSV/unity-pixel-contour.git",
+    		"com.mrgvsv.pixel-contour": "https://github.com/MrGVSV/pixel-contour.git",
   	}
 }
 ```
