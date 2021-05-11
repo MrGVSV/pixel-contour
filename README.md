@@ -36,13 +36,13 @@ https://github.com/MrGVSV/unity-pixel-contour.git
 
 Alternatively, a package can be installed manually by opening the `manifest.json` file found in the "Packages" folder in your root project directory. Add the following:
 
-```json
+```jsonc
 {
 	// ...
-  "dependencies": {
-    // other dependencies...
-    "com.mrgvsv.unity-pixel-contour": "https://github.com/MrGVSV/unity-pixel-contour.git",
-  }
+  	"dependencies": {
+    		// other dependencies...
+    		"com.mrgvsv.unity-pixel-contour": "https://github.com/MrGVSV/unity-pixel-contour.git",
+  	}
 }
 ```
 
@@ -87,6 +87,7 @@ var contour = detector.GetContour();
 
 > To do both at once, you can also simply call the `GetContour()` method. It will find the contour if `FindContour()` has not already been called.
 
+
 ### `Contour`
 
 This class contains the actual contour data.
@@ -95,10 +96,10 @@ This class contains the actual contour data.
 
 | Name        | Type                               | Description                                                  |
 | ----------- | ---------------------------------- | ------------------------------------------------------------ |
-| Vertices    | ReadOnlyCollection\<ContourVertex> | A collection of all vertices. A `ContourVertex` is a structure containing the position and "pixel-normal" of a vertex, where "pixel-normal" is simply the normal of a vertex rounded to the best-fit pixel (ex. a normal of `( 0.7f, 0.7f )` will become `( 1f, 1f )`, whereas `( 1f, 0f )` will stay the same) |
-| Points      | IEnumerable\<Vector2>              | A collection of all vertex positions                         |
-| VertexCount | int                                | The number of vertices in the contour                        |
-| Bounds      | Bounds                             | The bounds of the contour                                    |
+| Vertices    | `ReadOnlyCollection\<ContourVertex>` | A collection of all vertices. A `ContourVertex` is a structure containing the position and "pixel-normal" of a vertex, where "pixel-normal" is simply the normal of a vertex rounded to the best-fit pixel (ex. a normal of `( 0.7f, 0.7f )` will become `( 1f, 1f )`, whereas `( 1f, 0f )` will stay the same) |
+| Points      | `IEnumerable\<Vector2>`              | A collection of all vertex positions                         |
+| VertexCount | `int`                                | The number of vertices in the contour                        |
+| Bounds      | `Bounds`                             | The bounds of the contour                                    |
 
 #### Methods
 
@@ -121,6 +122,7 @@ This is not guaranteed to work for all contours. Expanding or shrinking can caus
 Return a simplified version of this contour.
 
 This only affects collinear vertices. Corners and diagonals will not be simplified.
+
 
 ### `SpriteContourVisualizer`
 
