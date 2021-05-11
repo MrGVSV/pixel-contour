@@ -1,0 +1,14 @@
+{
+    "name": "com.mrgvsv.unity-pixel-contour.runtime",
+    "rootNamespace": "MrGVSV.PixelContour",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
