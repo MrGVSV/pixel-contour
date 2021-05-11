@@ -173,8 +173,3 @@ InitTestScene*.unity
 
 
 # End of https://www.toptal.com/developers/gitignore/api/unity,macos,rider
-
-# Unnecessary meta files
-README.md.meta
-package.json.meta
-LICENSE.meta
