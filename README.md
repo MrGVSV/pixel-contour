@@ -4,7 +4,7 @@
 
 This package provides a simple edge-detection system designed specifically for pixel-art. Use it to create complex shapes and colliders based on pixels from a Sprite or Texture2D.
 
-> **Note**: Edge-detection is done using [Moore-Neighbor Tracing](http://www.imageprocessingplace.com/downloads_V3/root_downloads/tutorials/contour_tracing_Abeer_George_Ghuneim/moore.html). As such, this package is only good for detecting the outermost edge of a pixel-art image. It will not identify "holes" or additional "islands" in any given texture.
+> **Note**: Edge-detection is done using [Moore-Neighbor Tracing](http://www.imageprocessingplace.com/downloads_V3/root_downloads/tutorials/contour_tracing_Abeer_George_Ghuneim/moore.html), and is only good for detecting the outermost edge of a pixel-art image. It will not identify "holes" or additional "islands" in any given texture.
 
 
 
@@ -96,8 +96,8 @@ This class contains the actual contour data.
 
 | Name        | Type                               | Description                                                  |
 | ----------- | ---------------------------------- | ------------------------------------------------------------ |
-| Vertices    | `ReadOnlyCollection\<ContourVertex>` | A collection of all vertices. A `ContourVertex` is a structure containing the position and "pixel-normal" of a vertex, where "pixel-normal" is simply the normal of a vertex rounded to the best-fit pixel (ex. a normal of `( 0.7f, 0.7f )` will become `( 1f, 1f )`, whereas `( 1f, 0f )` will stay the same) |
-| Points      | `IEnumerable\<Vector2>`              | A collection of all vertex positions                         |
+| Vertices    | `ReadOnlyCollection<ContourVertex>` | A collection of all vertices. A `ContourVertex` is a structure containing the position and "pixel-normal" of a vertex, where "pixel-normal" is simply the normal of a vertex rounded to the best-fit pixel (ex. a normal of `( 0.7f, 0.7f )` will become `( 1f, 1f )`, whereas `( 1f, 0f )` will stay the same) |
+| Points      | `IEnumerable<Vector2>`              | A collection of all vertex positions                         |
 | VertexCount | `int`                                | The number of vertices in the contour                        |
 | Bounds      | `Bounds`                             | The bounds of the contour                                    |
 
