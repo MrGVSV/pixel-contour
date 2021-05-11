@@ -1,6 +1,6 @@
 {
   "name": "com.mrgvsv.pixel-contour",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "displayName": "Pixel Contour",
   "description": "Pixel-art contour detection for Unity",
   "unity": "2019.4",
