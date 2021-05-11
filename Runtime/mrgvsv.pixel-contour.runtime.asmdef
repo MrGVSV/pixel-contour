@@ -1,5 +1,5 @@
 {
-    "name": "com.mrgvsv.unity-pixel-contour.runtime",
+    "name": "com.mrgvsv.pixel-contour.runtime",
     "rootNamespace": "MrGVSV.PixelContour",
     "references": [],
     "includePlatforms": [],
