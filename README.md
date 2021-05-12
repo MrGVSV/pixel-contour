@@ -1,5 +1,7 @@
 [![openupm](https://img.shields.io/npm/v/com.mrgvsv.pixel-contour?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.mrgvsv.pixel-contour/)
 
+![pixel_contour_thumbnail](/Documentation~/thumbnail.png)
+
 # Pixel Contour
 
 This package provides a simple edge-detection system designed specifically for pixel-art. Use it to create complex shapes and colliders based on pixels from a Sprite or Texture2D.
